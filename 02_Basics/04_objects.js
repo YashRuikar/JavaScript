@@ -49,12 +49,32 @@ const user = [
     }
 ]
 
-console.log(user[2].email)
+// console.log(user[2].email)
 
-console.log(facebookUser);
+// console.log(facebookUser);
 
-console.log((Object.keys(facebookUser)));
-console.log((Object.values(facebookUser)));
-console.log((Object.entries(facebookUser)));
+// console.log((Object.keys(facebookUser)));
+// console.log((Object.values(facebookUser)));
+// console.log((Object.entries(facebookUser)));
 
-console.log(facebookUser.hasOwnProperty("isLoggedIn"));
+// console.log(facebookUser.hasOwnProperty("isLoggedIn"));
+
+
+
+// Object De-structure
+
+
+const course = {
+    coursename: "JS in hindi",
+    price: "$55",
+    courseInstructor: "Mark Zuckerberg"
+}
+
+
+const {coursename} = course
+const {price} = course
+const {courseInstructor: instructor} = course
+
+console.log(coursename);
+console.log(price);
+console.log(courseInstructor);
