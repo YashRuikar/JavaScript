@@ -26,7 +26,6 @@ const result = addTwoNumbers(10, 5)
 
 
 function loginUserMessage(username = "Sam"){
-
     if (!username) {
         console.log("Please enter a username");
         return
