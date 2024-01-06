@@ -10,13 +10,22 @@ buttons.forEach(function (button) {
         if(e.target.id == 'white'){
             body.style.backgroundColor = e.target.id
         }
-        if(e.target.id == 'blue'){
+        if(e.target.id == 'palegoldenrod'){
             body.style.backgroundColor = e.target.id
         }
-        if(e.target.id == 'yellow'){
+        if(e.target.id == 'darksalmon'){
             body.style.backgroundColor = e.target.id
         }
         if(e.target.id == 'purple'){
+            body.style.backgroundColor = e.target.id
+        }
+        if(e.target.id == 'aqua'){
+            body.style.backgroundColor = e.target.id
+        }
+        if(e.target.id == 'indianred'){
+            body.style.backgroundColor = e.target.id
+        }
+        if(e.target.id == 'slateblue'){
             body.style.backgroundColor = e.target.id
         }
 
