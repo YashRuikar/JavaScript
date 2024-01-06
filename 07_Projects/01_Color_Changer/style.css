@@ -2,6 +2,11 @@ html {
     margin: 0;
   }
   
+  .heading{
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   span {
     display: block;
   }
@@ -25,12 +30,21 @@ html {
   #white {
     background: white;
   }
-  #blue {
-    background: blue;
+  #palegoldenrod {
+    background-color: palegoldenrod;
   }
-  #yellow {
-    background: yellow;
+  #darksalmon {
+    background-color:darksalmon;
   }
   #purple {
     background: purple;
+  }
+  #aqua{
+    background-color: aqua;
+  }
+  #indianred{
+    background-color: indianred;
+  }
+  #slateblue{
+    background-color: slateblue;
   }
